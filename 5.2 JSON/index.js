@@ -10,7 +10,7 @@ const recipeJSON =
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
-
+//Data will be stored in data
 let data;
 
 app.get("/", (req, res) => {
